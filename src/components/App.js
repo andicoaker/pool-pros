@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import Header from './header.js';
-import water from '../assets/water-image.jpg';
+import TopNav from './top-nav.js'
+import Navbar from './navbar.js';
+import WaterImg from './water-img.js';
+
 import '../styles/App.css';
+// import '../styles/header.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <img className="img-fluid" source={water} alt="" />
+        <TopNav />
+        <Navbar />
+        <WaterImg />
       </div>
     );
   }

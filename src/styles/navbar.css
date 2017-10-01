@@ -1,0 +1,66 @@
+.nav-bar {
+    box-shadow: 0 2px 2px 2px #cdcccc;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.navbar img {
+  width: 150px;
+  padding: 0px;
+  margin-left: 10px;
+}
+
+
+
+.fa-map-marker {
+  padding-right: 5px;
+}
+
+.navbar-toggler {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 1.25rem;
+  box-shadow: 0px 2px 5.88px 0.12px rgba(0, 0, 0, 0.58);
+
+}
+
+.navbar-toggler-icon {
+  color: #083d8c !important;
+}
+
+.navbar-collapse {
+  border-top: #0bc9c8 4px solid;
+  border-bottom: #0bc9c8 4px solid;
+  box-shadow: 0 2px 2px 2px #cdcccc;
+}
+
+.nav-item {
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+  margin-bottom: 3px;
+
+}
+
+.nav-link {
+  color: #616161;
+}
+
+.nav-item-bottom {
+  margin-bottom: 0px;
+}
+
+.menu-title {
+  text-align: center;
+  color: #01529e;
+  font-weight: 700;
+  padding: 15px 0px;
+  background-color: #ffffff
+}
+
+.fa-chevron-right {
+  float: right;
+  color: #02c7c6;
+
+}

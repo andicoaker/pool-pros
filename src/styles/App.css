@@ -1,8 +1,22 @@
 .App {
-  /*text-align: center;*/
+  font-family: 'Open Sans', sans-serif;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.top-nav {
+  background-color: #083d8c;
+}
+
+.top-nav .nav-link{
+  color: #ffffff;
+}
+
+.fa-external-link{
+  padding-left: 10px;
+}
+
+
+#water-image {
+  height: 100px;
+  width: 100%;
+  display: block;
 }
