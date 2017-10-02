@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import water from '../assets/water-image.jpg'
+import Water from '../assets/water-image.png'
 // import '../styles/header.css';
 
-class WaterImg extends Component {
+export default class WaterImg extends Component {
 
   render () {
     return (
       <div >
-        <img id="water-image" className="img-fluid" source={water} alt="" />
+        <img id="water-image"  src={Water} alt="" />
       </div>
     );
   }
 }
-
-export default WaterImg;

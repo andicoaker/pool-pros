@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import logo from '../assets/pool-pros-logo.svg';
+import Logo from '../assets/pool-pros-logo.png';
 
 import '../styles/navbar.css';
 
-class Navbar extends Component {
+export default class Navbar extends Component {
 
   render () {
     return (
       <div className="nav-bar">
         <nav className="navbar navbar-light navbar-expand-lg" >
-          <img src={logo} alt="Logo" />
+          <img src={Logo} alt="Logo" />
           <button type="button" className="btn btn-outline-primary btn-sm float-right">
             <i className="fa fa-map-marker" aria-hidden="true"></i>
             Find A <span className="d-none d-lg-inline-block pool-span"> Pool </span> Pro
@@ -53,5 +53,3 @@ class Navbar extends Component {
     );
   }
 }
-
-export default Navbar;

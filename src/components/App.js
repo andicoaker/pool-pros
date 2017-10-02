@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import TopNav from './top-nav.js'
-import Navbar from './navbar.js';
-import WaterImg from './water-img.js';
+import TopNav from './top-nav'
+import Navbar from './navbar';
+import WaterImg from './water-img';
 
 import '../styles/App.css';
 // import '../styles/header.css';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App">
@@ -17,5 +17,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

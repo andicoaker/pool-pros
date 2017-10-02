@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import '../styles/header.css';
 
-class TopNav extends Component {
+export default class TopNav extends Component {
 
   render () {
     return (
@@ -13,5 +13,3 @@ class TopNav extends Component {
     );
   }
 }
-
-export default TopNav;
