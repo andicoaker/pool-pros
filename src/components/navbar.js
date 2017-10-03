@@ -7,7 +7,7 @@ export default class Navbar extends Component {
 
   render () {
     return (
-      <div className="nav-bar">
+      <div className="nav-bar fixed-top">
         <nav className="navbar navbar-light navbar-expand-lg" >
           <img src={Logo} alt="Logo" />
           <button type="button" className="btn btn-outline-primary btn-sm float-right">

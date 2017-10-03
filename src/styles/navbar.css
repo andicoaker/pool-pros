@@ -39,7 +39,7 @@
 .nav-item {
   padding: 10px 20px;
   background-color: #f6f6f6;
-  margin-bottom: 3px;
+  border-bottom: #fff solid 3px;
 
 }
 
@@ -48,7 +48,7 @@
 }
 
 .nav-item-bottom {
-  margin-bottom: 0px;
+  border-bottom: none;
 }
 
 .menu-title {
@@ -56,7 +56,8 @@
   color: #01529e;
   font-weight: 700;
   padding: 15px 0px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  margin-bottom: 0px;
 }
 
 .fa-chevron-right {
