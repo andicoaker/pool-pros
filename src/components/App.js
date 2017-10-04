@@ -3,9 +3,9 @@ import TopNav from './top-nav'
 import Navbar from './navbar';
 import WaterImg from './water-img';
 import Filter from './filter';
+import DealerCards from './dealer-cards';
 
 import '../styles/App.css';
-// import '../styles/header.css';
 
 export default class App extends Component {
   render() {
@@ -15,6 +15,7 @@ export default class App extends Component {
         <Navbar />
         <WaterImg />
         <Filter />
+        <DealerCards />
       </div>
     );
   }

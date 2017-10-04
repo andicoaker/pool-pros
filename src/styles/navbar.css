@@ -1,5 +1,6 @@
 .nav-bar {
     box-shadow: 0 2px 2px 2px #cdcccc;
+    background-color: #fff;
 }
 
 .navbar {
@@ -11,8 +12,6 @@
   padding: 0px;
   margin-left: 10px;
 }
-
-
 
 .fa-map-marker {
   padding-right: 5px;

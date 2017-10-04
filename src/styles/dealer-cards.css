@@ -1,0 +1,49 @@
+.card-deck {
+  color: #3f3f3f;
+}
+
+.card {
+  box-shadow: 0px 2px 4.3px 0.7px rgba(0, 0, 0, 0.11);
+  text-align: center;
+}
+
+
+.phone-number {
+  border-radius: 2px;
+  background-color:  #216ddf;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.phone-number img {
+  width: 30px;
+}
+
+.phone-number span {
+  font-size: 12px;
+}
+
+.card-body p {
+  font-size: 12px;
+}
+
+.card-body .btn {
+  border: #02c7c6 solid 2px;
+}
+
+.biz-hours .heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000
+}
+
+.contact-btn {
+  font-size: 15px;
+  color: #083d8c;
+
+}
+
+.email-icon {
+  width: 20px;
+}
