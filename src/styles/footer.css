@@ -1,0 +1,47 @@
+.footer {
+
+}
+.logo-img {
+  width: 190px;
+  height: 25px;
+}
+
+.logo-img img {
+  width: 100%;
+}
+
+.connect {
+  font-size: 15px;
+  background-color: #083d8c;
+  color: #fff;
+}
+
+.social-icons img {
+  height: 20px;
+}
+
+.footer-nav {
+  color: #fff;
+  background-color: #216ddf;
+  font-size: 12px;
+}
+
+.footer-nav .row1 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+  padding-left: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer-nav .link1 {
+  border-right: solid white 1px;
+}
+.footer-nav img {
+  height: 12px;
+}
+
+.privacy {
+  border-right: solid white 1px;
+  border-left: solid white 1px;
+}
