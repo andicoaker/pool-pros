@@ -20,7 +20,7 @@ export default class DealerCards extends Component {
               <span className="mx-1">Tap to call</span>1.888.888.888
             </div>
             <p className="card-text font-italic my-3">Cant talk now? Click below to send an email.</p>
-            <a href="#" className="btn btn-outline-primary border-cyan contact-btn">
+            <a href="#" className="btn btn-outline-primary border-cyan contact-btn" data-toggle="modal" data-target="#contactModal">
               <img className="mx-1 email-icon" src={EmailIcon} alt="Email Icon" />
               Contact this Pro
             </a>

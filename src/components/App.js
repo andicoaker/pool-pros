@@ -5,6 +5,7 @@ import WaterImg from './water-img';
 import Filter from './filter';
 import DealerCards from './dealer-cards';
 import Footer from './footer';
+import Modal from './modal';
 
 import '../styles/App.css';
 
@@ -17,6 +18,7 @@ export default class App extends Component {
         <WaterImg />
         <Filter />
         <DealerCards />
+        <Modal />
         <Footer />
       </div>
     );

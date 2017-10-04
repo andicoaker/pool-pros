@@ -27,13 +27,13 @@ export default class Footer extends Component {
         </div>
 
         <div className="d-flex py-2 flex-column text-center align-items-center footer-nav">
-          <div classname="flex-row row1">
-            <a className="text-white link1 pr-2" href="#">Dealers and Distributors< /a>
+          <div className="flex-row row1 pb-2">
+            <a className="text-white link1 px-2" href="#">Dealers and Distributors< /a>
             <a className="text-white px-2" href="#">Commericial Service< /a>
-            <img src={ActionIcon} alt="Action Icon" />
+            <img className="pr-2" src={ActionIcon} alt="Action Icon" />
           </div>
 
-          <div classname="flex-row">
+          <div className="flex-row pt-2">
             <a className="text-white mr-2" href="#">
               <i className="fa fa-copyright pr-1" aria-hidden="true"></i>
               2017 Pool Pros
