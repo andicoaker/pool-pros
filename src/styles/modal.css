@@ -1,0 +1,32 @@
+.modal .header {
+  color: #fff;
+  background-color: #083d8c;
+}
+
+.header p,
+.form-control-label,
+.form-check {
+  font-size: 14px;
+}
+
+.modal-body p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #616161;
+}
+
+.form-group img {
+  height: 20px;
+}
+
+.textarea .font-italic {
+  margin-bottom: 10px;
+  color: #bebebe;
+}
+
+
+.modal-footer a{
+  color: #0bcac9;
+  font-size: 16px;
+  font-weight: 700;
+}

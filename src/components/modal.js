@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import Water from '../assets/water-image.png'
-// import '../styles/header.css';
+import CircleCheck from '../assets/checkmark-circle.png'
+import CircleUnchecked from '../assets/circle-form.png'
+
+import '../styles/modal.css';
 
 export default class Modal extends Component {
 
@@ -9,18 +11,63 @@ export default class Modal extends Component {
       <div className="modal fade" id="contactModal" tabIndex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div className="modal-dialog" role="document">
           <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title">Modal title</h5>
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+            <div className="d-flex flex-column justify-content-start p-3 header">
+              <p className="m-0">EMAIL</p>
+              <h5 className="">Dealer Name</h5>
+              <button type="button" className="close d-none" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div className="modal-body">
-              <p>Modal body text goes here.</p>
+              <p>Fill out the form below and DEALER NAME of CITY will get in touch with you.</p>
+              <form>
+                <div className="form-group">
+                  <div className="d-flex justify-content-between">
+                    <label for="customer-name" className="form-control-label">First and last name</label>
+                    <img id="circle-check"  src={CircleCheck} alt="Checkmark Icon"/>
+                  </div>
+                  <input type="text" className="form-control" id="customer-name" />
+                </div>
+                <div className="form-group">
+                  <div className="d-flex justify-content-between">
+                    <label for="phone-number" className="form-control-label">Phone number</label>
+                    <img id="circle-uncheck"  src={CircleUnchecked} alt="Unchecked Circle Icon"/>
+                  </div>
+                  <input type="text" className="form-control" id="customer-name" />
+                </div>
+                <div className="form-group">
+                  <div className="d-flex justify-content-between">
+                    <label for="email-address" className="form-control-label">Email address</label>
+                    <img id="circle-uncheck"  src={CircleUnchecked} alt="Unchecked Circle Icon"/>
+                  </div>
+                  <input type="text" className="form-control" id="customer-name" />
+                </div>
+                <div className="form-group">
+                  <div className="d-flex justify-content-between textarea">
+                    <label for="message-text" className="form-control-label">Comments or questions</label>
+                    <p className="font-italic">optional</p>
+                  </div>
+                  <textarea className="form-control" id="comments-text"></textarea>
+                </div>
+                <div className="form-group mb-0">
+
+                  <p className="form-text m-0">Do you currently own a pool or spa?</p>
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1" /> Yes
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2" /> No
+                    </label>
+                  </div>
+
+                </div>
+              </form>
             </div>
-            <div className="modal-footer">
-              <button type="button" className="btn btn-primary">Save changes</button>
-              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+            <div className="modal-footer mx-2 px-0">
+              <a href="#" data-dismiss="modal">Send</a>
             </div>
           </div>
         </div>
