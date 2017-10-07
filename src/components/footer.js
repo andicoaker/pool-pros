@@ -10,7 +10,7 @@ export default class Footer extends Component {
 
   render () {
     return (
-      <div className="container p-0 m-0 d-flex flex-column footer">
+      <div className="d-flex flex-column p-0 m-0 footer">
 
         <div className="d-flex flex-column py-3 connect">
           <div className="logo-img align-self-center">

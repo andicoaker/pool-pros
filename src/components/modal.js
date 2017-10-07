@@ -23,28 +23,28 @@ export default class Modal extends Component {
               <form>
                 <div className="form-group">
                   <div className="d-flex justify-content-between">
-                    <label for="customer-name" className="form-control-label">First and last name</label>
+                    <label htmlFor="customer-name" className="form-control-label">First and last name</label>
                     <img id="circle-check"  src={CircleCheck} alt="Checkmark Icon"/>
                   </div>
                   <input type="text" className="form-control" id="customer-name" />
                 </div>
                 <div className="form-group">
                   <div className="d-flex justify-content-between">
-                    <label for="phone-number" className="form-control-label">Phone number</label>
+                    <label htmlFor="phone-number" className="form-control-label">Phone number</label>
                     <img id="circle-uncheck"  src={CircleUnchecked} alt="Unchecked Circle Icon"/>
                   </div>
                   <input type="text" className="form-control" id="customer-name" />
                 </div>
                 <div className="form-group">
                   <div className="d-flex justify-content-between">
-                    <label for="email-address" className="form-control-label">Email address</label>
+                    <label htmlFor="email-address" className="form-control-label">Email address</label>
                     <img id="circle-uncheck"  src={CircleUnchecked} alt="Unchecked Circle Icon"/>
                   </div>
                   <input type="text" className="form-control" id="customer-name" />
                 </div>
                 <div className="form-group">
                   <div className="d-flex justify-content-between textarea">
-                    <label for="message-text" className="form-control-label">Comments or questions</label>
+                    <label htmlFor="message-text" className="form-control-label">Comments or questions</label>
                     <p className="font-italic">optional</p>
                   </div>
                   <textarea className="form-control" id="comments-text"></textarea>
@@ -52,14 +52,14 @@ export default class Modal extends Component {
                 <div className="form-group mb-0">
 
                   <p className="form-text m-0">Do you currently own a pool or spa?</p>
-                  <div class="form-check form-check-inline">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1" /> Yes
+                  <div className="form-check form-check-inline">
+                    <label className="form-check-label">
+                      <input className="form-check-input" type="radio" id="inlineCheckbox1" value="option1" /> Yes
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2" /> No
+                  <div className="form-check form-check-inline">
+                    <label className="form-check-label">
+                      <input className="form-check-input" type="radio" id="inlineCheckbox2" value="option2" /> No
                     </label>
                   </div>
 
