@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Filter from './filter';
-import DealerCards from './dealer-cards';
+import DealerCardsList from './dealer-cards-list';
 import dealers from '../dealers.json';
 
 
@@ -23,12 +23,12 @@ export default class DealerSearch extends Component {
 
   render () {
     return (
-      <div className="App">
+      <div className="">
         <Filter
           isChecked={this.state.isChecked}
           onIsCheckedChange={this.handleIsCheckedChange}
         />
-        <DealerCards
+        <DealerCardsList
           isChecked={this.state.isChecked}
         />
       </div>

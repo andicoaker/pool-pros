@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DealerCards from './dealer-cards';
+import DealerCard from './dealer-card';
 import '../styles/filter.css';
 
 export default class Filter extends Component {
