@@ -29,6 +29,7 @@ export default class DealerSearch extends Component {
           onIsCheckedChange={this.handleIsCheckedChange}
         />
         <DealerCardsList
+          dealers={this.state.dealers}
           isChecked={this.state.isChecked}
         />
       </div>

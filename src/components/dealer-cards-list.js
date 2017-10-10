@@ -3,8 +3,6 @@ import DealerCard from './dealer-card';
 import Modal from './modal';
 
 import '../styles/dealer-cards.css';
-import dealers from '../dealers.json';
-
 
 export default class DealerCardsList extends Component {
 
@@ -13,11 +11,13 @@ export default class DealerCardsList extends Component {
     const dealerCards = this.props.dealers.map((dealer) => {
       let data = dealer.data;
       console.log(data);
-
-      <DealerCard
-        key={dealer.data.companyID}
-        value={dealer}
-      />
+      return (
+        <DealerCard
+          key={data.companyID}
+          {...dealer}
+          value={dealer}
+        />
+      );  
     })
 
     return (
