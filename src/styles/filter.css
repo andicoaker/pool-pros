@@ -12,7 +12,7 @@
 
 }
 
-.filter-list {
+#filter-list {
   padding-left: 20px;
   padding-bottom: 10px;
 }
@@ -23,7 +23,7 @@
 
 .filter-btn,
 /*.btn,*/
-.filter-list{
+#filter-list{
   color: #3f3f3f;
   background-color: #fff;
   border: #d8d8d8 solid 2px;

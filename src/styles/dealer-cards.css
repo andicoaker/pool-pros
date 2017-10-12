@@ -24,7 +24,7 @@
   font-size: 12px;
 }
 
-.card-body p {
+.card p {
   font-size: 12px;
 }
 
@@ -40,6 +40,7 @@
 
 .contact-btn {
   font-size: 15px;
+  font-weight: 700;
   color: #083d8c;
 
 }

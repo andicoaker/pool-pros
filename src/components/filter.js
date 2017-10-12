@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DealerCard from './dealer-card';
+// import DealerCard from './dealer-card';
 import '../styles/filter.css';
 
 export default class Filter extends Component {
@@ -18,11 +18,11 @@ export default class Filter extends Component {
           <div className="p-2"># Dealers in 28205</div>
           <div className="d-flex filter-btn">
             <div className="p-2">Filter Results</div>
-            <div className="p-2 btn btn-light" type="button"><i className="fa fa-caret-down" aria-hidden="true"></i></div>
+            <div className="p-2 btn btn-light" type="button" data-toggle="collapse" data-target="#filter-list" aria-expanded="false" aria-controls="filter-list"><i className="fa fa-caret-down" aria-hidden="true"></i></div>
           </div>
         </div>
 
-        <div className="d-flex flex-column flex-lg-row filter-list">
+        <div id="filter-list" className="collapse d-flex flex-column flex-lg-row ">
           <div className="form-check mr-4 mt-3">
             <label className="form-check-label">
               <input className="form-check-input mr-2" type="checkbox" value="Service Pro"/>Service

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import DealerCard from './dealer-card';
-import Modal from './modal';
 
 import '../styles/dealer-cards.css';
 
@@ -17,11 +16,11 @@ export default class DealerCardsList extends Component {
           {...dealer}
           value={dealer}
         />
-      );  
+      );
     })
 
     return (
-      <div className="card-deck">
+      <div className="d-flex flex-wrap card-deck ">
         {dealerCards}
       </div>
     );
