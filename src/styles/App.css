@@ -1,14 +1,16 @@
 .App {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 60px;
+  /*padding-top: 38px;*/
 }
 
 .top-nav {
   background-color: #083d8c;
+
 }
 
 .top-nav .nav-link{
   color: #ffffff;
+  font-size: 12px;
 }
 
 .fa-external-link{

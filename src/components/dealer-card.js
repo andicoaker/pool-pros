@@ -10,7 +10,7 @@ import '../styles/dealer-cards.css';
 const DealerCard = (props) => {
   const { certifications, weekHours, name, phone1, companyID, city } = props.data
   return (
-    <div className="card mx-3 text-center">
+    <div className="col-md-6 col-lg-4 card p-0 text-center">
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <div className="card-text mx-4 px-1 phone-number">
@@ -24,6 +24,7 @@ const DealerCard = (props) => {
           key={companyID}
           name={name}
           city={city}
+          companyID={companyID}
         />
 
         <div className="my-3 biz-hours">

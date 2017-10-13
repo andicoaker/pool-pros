@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import DealerCard from './dealer-card';
+import DealerCard from './dealer-card';
 import '../styles/filter.css';
 
 export default class Filter extends Component {
@@ -14,7 +14,7 @@ export default class Filter extends Component {
 
       <div className="d-flex flex-column flex-lg-row filter">
 
-        <div className="d-flex justify-content-between filter-heading">
+        <div className="d-flex justify-content-between align-items-center filter-heading">
           <div className="p-2"># Dealers in 28205</div>
           <div className="d-flex filter-btn">
             <div className="p-2">Filter Results</div>

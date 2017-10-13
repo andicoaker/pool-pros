@@ -26,7 +26,7 @@ export default class Footer extends Component {
           </div>
         </div>
 
-        <div className="d-flex py-2 flex-column text-center align-items-center footer-nav">
+        <div className="d-flex d-lg-none py-2 flex-column text-center align-items-center footer-nav">
           <div className="flex-row row1 pb-2">
             <a className="text-white link1 px-2" href="#">Dealers and Distributors< /a>
             <a className="text-white px-2" href="#">Commericial Service< /a>

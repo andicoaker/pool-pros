@@ -20,7 +20,7 @@ export default class DealerCardsList extends Component {
     })
 
     return (
-      <div className="d-flex flex-wrap card-deck ">
+      <div className="row m-0 justify-content-between cards-list ">
         {dealerCards}
       </div>
     );

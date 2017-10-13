@@ -14,14 +14,14 @@ export default class Modal extends Component {
 
   render () {
 
-    const { name, city } = this.props
+    const { name, city, companyID } = this.props
     return (
       <div className="modal-container">
-        <a href="#" className="btn btn-outline-primary border-cyan contact-btn" data-toggle="modal" data-target="#contactModal">
+        <a href="#" className="btn btn-outline-primary border-cyan contact-btn" data-toggle="modal" data-target={`contactModal-${companyID}`}>
           <img className="mx-1 email-icon" src={EmailIcon} alt="Email Icon" />
           Contact this Pro
         </a>
-        <div className="modal fade" id="contactModal" tabIndex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div className="modal fade" id={`contactModal-${companyID}`} tabIndex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
           <div className="modal-dialog" role="document">
             <div className="modal-content">
               <div className="d-flex flex-column justify-content-start p-3 header">

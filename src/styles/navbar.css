@@ -1,28 +1,13 @@
-.nav-bar {
-    box-shadow: 0 2px 2px 2px #cdcccc;
-    background-color: #fff;
-}
-
 .navbar {
-  padding: 0px;
+    box-shadow: 0 2px 2px 2px #cdcccc;
 }
 
 .navbar img {
   width: 150px;
-  padding: 0px;
-  margin-left: 10px;
-}
-
-.fa-map-marker {
-  padding-right: 5px;
 }
 
 .navbar-toggler {
-  margin: 5px;
-  padding: 5px;
-  border-radius: 1.25rem;
   box-shadow: 0px 2px 5.88px 0.12px rgba(0, 0, 0, 0.58);
-
 }
 
 .navbar-toggler-icon {
@@ -35,9 +20,17 @@
   box-shadow: 0 2px 2px 2px #cdcccc;
 }
 
+.menu-title {
+  text-align: center;
+  color: #01529e;
+  font-weight: 700;
+  /*padding: 15px 0px;*/
+  background-color: #ffffff;
+  margin-bottom: 0px;
+}
+
 .nav-item {
   padding: 10px 20px;
-  background-color: #f6f6f6;
   border-bottom: #fff solid 3px;
 
 }
@@ -50,17 +43,7 @@
   border-bottom: none;
 }
 
-.menu-title {
-  text-align: center;
-  color: #01529e;
-  font-weight: 700;
-  padding: 15px 0px;
-  background-color: #ffffff;
-  margin-bottom: 0px;
-}
-
 .fa-chevron-right {
   float: right;
   color: #02c7c6;
-
 }

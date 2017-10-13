@@ -23,7 +23,7 @@ export default class DealerSearch extends Component {
 
   render () {
     return (
-      <div className="">
+      <div className="d-flex flex-column mx-lg-5">
         <Filter
           isChecked={this.state.isChecked}
           onIsCheckedChange={this.handleIsCheckedChange}
